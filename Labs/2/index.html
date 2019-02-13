@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Guess a Number </title>
+        <title> Guess The Number Game</title>
         <meta charset="utf-8" />
         <script src="https://code.jquery.com/jquery.min.js"></script>
         
@@ -13,8 +13,8 @@
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <div class="jumbotron">
-            <h1>Guess a Number</h1>
+        <div class="jumbotron"
+            <h1 style = "font-size: 2.0em">Guess a Number</h1>
         </div>
         
         <div id="directions" class="resultParas">
@@ -23,15 +23,21 @@
             </br></br>
             <label for="guessField">Enter a guess: </label>
             <input type="text" id="guessField" class="guessField">
-            <input type="submit" value="Submit guess" class="guessSubmit">
+            <input type="submit" value="Submit" class="guessSubmit">
             
             </br></br>
+            <p id = "error"></p>
             <p id="guesses"></p>
             <p id="lastResult"></p>
             <p id="lowOrHi"></p>
+            <p id = "remaining"></p>
             <button id='reset'>Reset</button>
         </div>
-        
-        <script SRC="js/scripts.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous">
+          
+      </script>
+        <script type = "text/javascript" src="js/scripts.js"></script>
     </body>
 </html>

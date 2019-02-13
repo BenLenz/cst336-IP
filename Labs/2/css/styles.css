@@ -7,13 +7,13 @@ body{
 .jumbotron {
     background-color:blue;
     color:white;
+    font-size: 2.0em;
 }
 
 #directions {
     background-color:#edf2f9;
-    font-size: 2em;    
     width:900px;
-    height:400px !important;
+    height:500px !important;
     margin:0 auto;
     border-radius:20px;
 }
