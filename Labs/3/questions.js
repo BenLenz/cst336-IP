@@ -1,0 +1,15 @@
+var questions = [
+  ["Who is Peter Parkers nemesis in the first Spider-Man film?", "The Joker", "Magneto", "The Green Goblin","None", "3"],
+  ["What is Cyclops power in X-Men?", "Telekinesis", "Optic blast", " Diamond skin", "all","2"],
+  ["What is the name of the cosmic cube that Loki takes control of in The Avengers?", "the Tesseract", "the Magic Cube", "the Mjolnir", "all","1"],
+  ["How many Avengers are there in the Avengers movie?", " 4", " 10", "6", "100","3"],
+  ["How do the Fantastic Four get their powers?", "  they were bitten by a radioactive spider", " they were exposed to cosmic radiation in space", " they were experimented on", "Dont know","2"],
+  ["Whats the name of Tony Starks company in the Iron Man trilogy?", "  Stark and Sons", "  Stark and Co", " Stark Industries", "Avg co","3"],
+  ["What is Hawkeyes real name?", " Steve Rogers", " Clint Barton", " Tony Stark", " Kurt Wagner", "2"],
+  ["How many years was Captain America frozen for in Captain America: The First Avenger?", " Nearly 100 years", " Nearly 70 years", " Nearly 20 years", " Nearly 10 years","2"],
+  ["Who is Thors main romantic interest in Thor?", " Jane Foster", " Jean Grey", " Mary Jane", " Peta Jenson","1"],
+  ["In X2, who do the X-Men find hidden in a church?", "The Nightcrawler", "The Silver Surfer", " The beast", " Monkey Man","3"],
+  ["Whats the name of Jean Greys alter-ego in X-Men?", " The Black Widow", "The Invisible Woman", " The Phoenix", " The Hulk","2"],
+  ["What is the name of Rhodeys iron suit in Iron Man 3?", " Death Proof", "  War Machine", " Killing Machine", " Jump Suit","1"],
+  ["How many infinity stores are there in the Avengers Universe?", " 1", " 5", " 2", " 6","4"],
+  ];
