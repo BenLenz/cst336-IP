@@ -1,0 +1,123 @@
+<html>
+<head>
+    <title>Shopping Cart</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1> Spring Break Shopping  </h1>
+
+    <table>
+    <tr>
+        <th>Product</th>
+        <th>Unit <br> Price</th>
+        <th> Quantity </th>
+        <th>Total</th>
+    </tr>
+    <tr>
+        <td>Microfiber Beach Towel</td>
+        <td>$30</td>
+        <td><input type="text" id = "quant" size="5"></td>
+        <td id = "totals"></td>
+    </tr>
+
+   <tr>
+        <td>Sunscreen 100SPF, 120ml</td>
+        <td>$10</td>
+        <td><input type="text" id = "quant1" size="5"></td>
+        <td id = "totals1"></td>
+    </tr>    
+    
+    <tr>
+        <td>Ipanema Flip-flop Sandals </td>
+        <td>$20</td>
+        <td><input type="text" id = "quant2" size="5"></td>
+        <td id = "totals2"></td>
+    </tr>
+
+   <tr>
+        <td>Shipping</td>
+        <td></td>
+        <td></td>
+        <td id="shipping"></td>
+    </tr>    
+        
+    <tr>
+        <td>Subtotal</td>
+        <td></td>
+        <td></td>
+        <td id="subtotal"></td>
+    </tr>             
+        
+    <tr>
+        <td>Tax (10%)</td>
+        <td></td>
+        <td></td>
+        <td id="tax"></td>
+    </tr>
+    
+    <tr>
+        <td>Total</td>
+        <td></td>
+        <td></td>
+        <td id="total"></td>
+    </tr>
+       
+    </table>
+    
+    <h3>Shipping & Handling</h3>
+    <select id="shipping">
+        <option value="">Select one</option>
+        <option value ="1">Next-day delivery: $15</option>
+        <option value = "2">Three-day delivery: $10</option>
+        <option value="3">Regular(5-8 days): $5</option>
+        
+    </select>
+    <br><br>
+        
+    <span>I accept the terms of this purchase.</span>
+    <br> 
+    <button id = "calc">Recalculate Total</button>
+    <button>"CONFIRM PURCHASE"</button>
+    <script>
+    /*global totals1*/
+    /*global totals2*/
+    $("#totals").text("0");
+    $("#totals1").text("0");
+    $("#totals2").text("0");
+        $("#quant").change(function(){
+            console.log(parseFloat($("#quant").val()))
+            $("#totals").text(30*parseFloat($("#quant").val()))
+            var val1 = parseInt($("#totals").text());
+            var val2 = parseInt($("#totals1").text());
+            var val4 = parseInt($("#totals2").text());
+            var val3 = val2 + val1 + val4;
+            $("#total").text(val3)
+        
+        });
+        $("#quant1").change(function(){
+            $("#totals1").text(10*parseFloat($("#quant1").val()))
+            var val1 = parseInt($("#totals").text());
+            var val2 = parseInt($("#totals1").text());
+            var val4 = parseInt($("#totals2").text());
+            var val3 = val2 + val1 + val4;
+            $("#total").text(val3)
+        
+        
+        });
+        $("#quant2").change(function(){
+            $("#totals2").text(20*parseFloat($("#quant2").val()))
+            var val1 = parseInt($("#totals").text());
+            var val2 = parseInt($("#totals1").text());
+            var val4 = parseInt($("#totals2").text());
+            var val3 = val2 + val1 + val4;
+            $("#total").text(val3)
+        
+        
+        });
+        $("#calc").click(function(){
+            $("#total").text(parseFloat($("#totals").val())+parseFloat($("#totals1").val())+parseFloat($("#totals2").val()))
+        });
+    </script>
+</body>
+</html>
