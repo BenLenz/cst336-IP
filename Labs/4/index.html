@@ -24,25 +24,70 @@
             <div><label>State:</label><input id = "state" type="text"></div>
             <div><label>Select a County:</label><select id = "county"></select></div>
             <div><label>Desired Username:</label><input id = "user" type="text"><label id = "usermsg"></label></div>
-            <div><label>Password:</label><input id = "pass" type="password"></div>
+            <div><label>Password:</label><input id = "pass" type="password"><label id ="passmsg2"></label></div>
             <div><label>Type Password Again:</label><input id = "pass2" type="password"><label id = "passmsg"></label></div>
             <div><input id = "sub" type="submit" value="Sign up!"></div>
         </fieldset>
     </form>
         <script type="text/javascript">
+        /* global $ */ 
     $(document).ready(function() {
         $("#state").change(function(e) {
             getCounties();
         });
         $("#zip").change(function(e) {
             getCity();
-        })
-        $("#user").change(function(e) {
-          checkUser();  
-        })
-        $("#sub").click(function(e) {
-            checkPassword();
-        })
+        });
+        $("#user").change( function(){  
+                  $.ajax({
+                    type: "get",
+                    url: "checkForm.php",
+                    data: { 
+                          "user": $("#user").val() 
+                        },
+                      success: function(data,status) {
+                          //alert(data);
+                          $("#usermsg").html(data);
+                      },
+                      complete: function(data,status) { //optional, used for debugging purposes
+                          //alert(status);
+                      }
+                  });//AJAX  
+        } );//username changes
+        $("#pass").change( function(){  
+                  $.ajax({
+                    type: "get",
+                    url: "checkPass.php",
+                    data: { 
+                          "user": $("#user").val(),
+                          "pass": $("#pass").val()
+                        },
+                      success: function(data,status) {
+                          //alert(data);
+                          $("#passmsg").html(data);
+                      },
+                      complete: function(data,status) { //optional, used for debugging purposes
+                          //alert(status);
+                      }
+                  });//AJAX  
+        } );//username changes
+         $("#pass").mouseenter( function(){ 
+                  $.ajax({
+                    type: "get",
+                    url: "suggestPass.php",
+                    data: { 
+                          "user": $("#user").val(),
+                          "pass": $("#pass").val()
+                        },
+                      success: function(data,status) {
+                          //alert(data);
+                          $("#passmsg2").html("Suggested password: " + data);
+                      },
+                      complete: function(data,status) { //optional, used for debugging purposes
+                          //alert(status);
+                      }
+                  });//AJAX
+         } );
         function getCounties(){
             $.ajax({
                 type: "get",
@@ -84,40 +129,8 @@
                 }
             });
         }
-        function checkUser()
-        {
-            var usernames = ["chunkyliver8", "admin", "user", "administrator", "user1", "user2"]
-            console.log($("#user").val());
-            for(var i = 0; i<usernames.length;i++)
-            {
-                console.log(usernames[i]);
-                if($("#user").val() === usernames[i])
-                {
-                    $("#usermsg").html("Username is already taken, please try again!");
-                    $("#usermsg").css("background-color","red");
-                    $("#usermsg").css("color", "white");
-                    return;
-                    
-                }
-            }
-            $("#usermsg").html("Username is available");
-            $("#usermsg").css("background-color", "green");
-            $("#usermsg").css("color", "black");
-        }
-        function checkPassword()
-        {
-            if($("#pass").val()===$("#pass2").val())
-            {
-                $("#passmsg").html("Your passwords match, thanks for sumbitting!");
-            }
-            else
-            {
-                alert("Passwords do not match, please re-type your password");
-                $("#passmsg").html("Passwords do not match, please re-type your password");
-                $("#passmsg").css("background-color","red");
-                $("#passmsg").css("color","white");
-            }
-        }
+
+   
     });
     </script>
 </body>
