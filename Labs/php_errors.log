@@ -1,6 +1,0 @@
-[11-Mar-2019 17:28:06 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/Labs/4/checkForm.php on line 5
-[11-Mar-2019 17:28:06 UTC] PHP Stack trace:
-[11-Mar-2019 17:28:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/4/checkForm.php:0
-[11-Mar-2019 17:29:17 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/Labs/4/checkForm.php on line 5
-[11-Mar-2019 17:29:17 UTC] PHP Stack trace:
-[11-Mar-2019 17:29:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/4/checkForm.php:0

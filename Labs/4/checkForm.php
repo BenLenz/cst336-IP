@@ -1,6 +1,6 @@
 <?php
 
-    $arr = array("admin", "user", "test");
+    $arr = array("admin", "user", "test", "administrator", "guest");
     //print_r($arr);
     echo '<script>console.log("$arr")</script>';
     if(in_array($_GET["user"], $arr))

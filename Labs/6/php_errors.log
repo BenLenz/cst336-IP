@@ -1,0 +1,66 @@
+[26-Mar-2019 23:24:44 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:24:44 UTC] PHP Stack trace:
+[26-Mar-2019 23:24:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:24:46 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:24:46 UTC] PHP Stack trace:
+[26-Mar-2019 23:24:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:24:47 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:24:47 UTC] PHP Stack trace:
+[26-Mar-2019 23:24:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:24:47 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:24:47 UTC] PHP Stack trace:
+[26-Mar-2019 23:24:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:26:25 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:26:25 UTC] PHP Stack trace:
+[26-Mar-2019 23:26:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:27:30 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:27:30 UTC] PHP Stack trace:
+[26-Mar-2019 23:27:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:27:31 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:27:31 UTC] PHP Stack trace:
+[26-Mar-2019 23:27:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:27:31 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:27:31 UTC] PHP Stack trace:
+[26-Mar-2019 23:27:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:27:31 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:27:31 UTC] PHP Stack trace:
+[26-Mar-2019 23:27:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:27:32 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:27:32 UTC] PHP Stack trace:
+[26-Mar-2019 23:27:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:28:02 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:28:02 UTC] PHP Stack trace:
+[26-Mar-2019 23:28:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:28:03 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:28:03 UTC] PHP Stack trace:
+[26-Mar-2019 23:28:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:28:03 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:28:03 UTC] PHP Stack trace:
+[26-Mar-2019 23:28:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:28:03 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:28:03 UTC] PHP Stack trace:
+[26-Mar-2019 23:28:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:28:51 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:28:51 UTC] PHP Stack trace:
+[26-Mar-2019 23:28:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:28:51 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:28:51 UTC] PHP Stack trace:
+[26-Mar-2019 23:28:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:28:51 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:28:51 UTC] PHP Stack trace:
+[26-Mar-2019 23:28:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:28:51 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:28:51 UTC] PHP Stack trace:
+[26-Mar-2019 23:28:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:31:51 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:31:51 UTC] PHP Stack trace:
+[26-Mar-2019 23:31:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:31:52 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:31:52 UTC] PHP Stack trace:
+[26-Mar-2019 23:31:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:31:54 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:31:54 UTC] PHP Stack trace:
+[26-Mar-2019 23:31:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
+[26-Mar-2019 23:31:54 UTC] PHP Fatal error:  Undefined class constant 'FECT_ASSOC' in /home/ubuntu/workspace/Labs/6/api/getSearchResults.php on line 32
+[26-Mar-2019 23:31:54 UTC] PHP Stack trace:
+[26-Mar-2019 23:31:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/Labs/6/api/getSearchResults.php:0
