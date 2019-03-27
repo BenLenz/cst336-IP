@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> OtterMart Product Search </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+        <script>
+            /*global $*/
+            $(document).ready(function(){
+
+                $.ajax({
+                    type: "GET",
+                    url: "practice.php",
+                    dataType: "json",
+                    success: function(data, status) {
+                        data.forEach(function(key) {
+                            $("#categories").append("<option value=" + key["productId"] + ">" + key["productName"] + "</option>");
+                        });
+                    }
+                });
+                 $.ajax({
+                    type: "GET",
+                    url: "getPromoCode.php",
+                    dataType: "json",
+                    success: function(data, status) {
+                        data.forEach(function(key) {
+                            $("#tg-23").html(key["discount"]+"%");
+                            $("#tg-24").html((key["discount"]/100)*$("#tg-04").val());
+                            $("#promos").html(key["promoCode"]);
+                        });
+                    }
+                });
+                 $.ajax({
+                    type: "GET",
+                    url: "getProduct.php",
+                    dataType: "json",
+                    success: function(data, status) {
+                        data.forEach(function(key) {
+                            $("#tg-01").html(key["productName"]);
+                            $("#tg-02").html(key["productPrice"]);
+                            $("#quant").val(1)
+                            $("#tg-04").html("$"+key["productPrice"])
+                           $("#product").html(key["productName"]); 
+                           $("#price").html(key["productPrice"]);
+                        });
+                    }
+                });
+            });//documentReady
+        </script>
+        <style>
+            body {
+                text-align: center;
+            }
+            #results{
+                text-align: left;
+                padding-left: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div class="jumbotron"><h1>  Midterm Practice Products</h1></div>
+            <style type="text/css">
+            .tg  {border-collapse:collapse;border-spacing:0;}
+            .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+            .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+            .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+            .tg .tg-0lax{text-align:left;vertical-align:top}
+            </style>
+            <table class="tg">
+              <tr>
+                <th class="tg-0pky">Product</th>
+                <th class="tg-0lax">Unit Price</th>
+                <th class="tg-0lax">Quanitity</th>
+                <th class="tg-0lax">Total</th>
+              </tr>
+              <tr>
+                <td id="tg-01"></td>
+                <td id="tg-02"></td>
+                <td id="tg-03"><input type = "text" id = "quant"/></td>
+                <td id="tg-04"></td>
+              </tr>
+              <tr>
+                <td id="tg-11">
+                <select name="category" id="categories">
+                        <option value=""> Select One </option>
+                </select></td>
+                <td id="tg-12"></td>
+                <td id="tg-13"><input type = "text" id = "quantity"/></td>
+                <td id="tg-14"></td>
+              </tr>
+              <tr>
+                <td id="tg-21">Discount</td>
+                <td id="tg-22"></td>
+                <td id="tg-23"></td>
+                <td id="tg-24"></td>
+              </tr>
+              <tr>
+                <td id="tg-31">Subtotal</td>
+                <td id="tg-32"></td>
+                <td id="tg-33"></td>
+                <td id="tg-34"></td>
+              </tr>
+              <tr>
+                <td id="tg-41">Tax(10%)</td>
+                <td id="tg-42"></td>
+                <td id="tg-43"></td>
+                <td id="tg-44"></td>
+              </tr>
+              <tr>
+                <td id="tg-51">Total</td> 
+                <td id="tg-52"></td>
+                <td id="tg-53"></td>
+                <td id="tg-54"></td>
+              </tr>
+            </table>
+            <br>
+           Promo Code:<div id = "promos"></div>
+        </div>
+        <br>
+        <hr>
+        <div id="results"></div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="purchaseHistoryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+              <div class="modal-body">
+                  <div id="history"></div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </body>
+</html>
