@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> Midterm Cinder</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+        <script>
+            /*global $*/
+            $(document).ready(function(){
+
+                $.ajax({
+                    type: "GET",
+                    url: "getMatch.php",
+                    dataType: "json",
+                    success: function(data, status) {
+                        data.forEach(function(key) {
+                            var url = key["picture_url"];
+                            $("#matchName").html(key["username"]);
+                            $("#picture").html("<img src = " + url + "/img>");
+                            $("#about").html("About "+ key["username"]);
+                            $("#about").append("<br>" + key["about_me"]);
+                        });
+                    }
+                });
+                $("#but1").on("click",function(){
+                    $.ajax({
+                        type: "GET",
+                        url: "getMatch.php",
+                        dataType: "json",
+                        success: function(data, status) {
+                            data.forEach(function(key) {
+                            var url = key["picture_url"];
+                            $("#matchName").html(key["username"]);
+                            $("#picture").html("<img src = " + url + "/img>");
+                            $("#about").html();
+                            $("#about").html("About " + key["username"]);
+                            $("#about").append("<br>" + key["about_me"]);
+                            });
+                        }
+                    });
+                }); //searchForm
+                $("#but2").on("click",function(){
+                    $.ajax({
+                        type: "GET",
+                        url: "getMatch.php",
+                        dataType: "json",
+                        success: function(data, status) {
+                            data.forEach(function(key) {
+                            var url = key["picture_url"];
+                            $("#matchName").html(key["username"]);
+                            $("#picture").html("<img src = " + url + "/img>");
+                            $("#about").html();
+                            $("#about").html("About " + key["username"]);
+                            $("#about").append("<br>" + key["about_me"]);
+                            });
+                        }
+                    });
+                }); //searchForm
+                $("#but3").on("click",function(){
+                    $.ajax({
+                        type: "GET",
+                        url: "getMatch.php",
+                        dataType: "json",
+                        success: function(data, status) {
+                            data.forEach(function(key) {
+                            var url = key["picture_url"];
+                            $("#matchName").html(key["username"]);
+                            $("#picture").html("<img src = " + url + "/img>");
+                            $("#about").html();
+                            $("#about").html("About " + key["username"]);
+                            $("#about").append("<br>" + key["about_me"]);
+                            });
+                        }
+                    });
+                }); //searchForm
+                $(document).on('click', '#but4', function(){
+                    $('#purchaseHistoryModal').modal("show");
+                    $.ajax({
+                        type: "GET",
+                        url: "getModal.php",
+                        dataType: "json",
+                        data: {
+                            "username" : $("#matchName").html(),
+                        },
+                        success: function(data, status) {
+                            if (data.length != 0) { // Checks if the API returned a non-empty list
+                                $("#history").html(""); //clears content
+                                data.forEach(function(key) {
+                                    $("#history").append("About: " + key["username"]);
+                                    $("#history").append("<br>" + key["about_me"]);
+                                });
+                            } else {
+                                $("#history").html("No purchase history for this item.");
+                            }
+                        }
+                    });
+                }); //historyLink
+            });//documentReady
+        </script>
+        <style>
+            body {
+                text-align: center;
+            }
+            #about {
+                text-align:right;
+            }
+            #textAbout {
+                text-align:right;
+            }
+            #picture {
+                text-align:left;
+            }
+            .wrap {
+                width: 100%;
+            }
+    
+            .floatleft {
+                float:left; 
+                width: 50%;
+                background-color: #ff0000;
+                height: 600px;
+            }
+    
+            .floatright {
+                float: right;
+                background-color: #00ff00;
+                height: 800px;
+                width: 50%;
+            }
+            #but1, #but2, #but3 {
+                width:20%;
+                padding-top:10px;
+            }
+            #indexButton, #historyButton {
+                padding:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+        <div class="jumbotron"><h1>  Midterm Cinder</h1></div>
+        <a href="index.html" class="button" id = "indexButton"><h3>Match</h3></a><a href="history.html" class="button" id = "historyButton"><h3>History</h3></a>    
+        <div id="results"></div>
+        <div id="promo"></div>
+        <div><h2 id = "matchName">Match</h2></div>
+        <div><button type = "button" id = "but4">Details Modal</button></div>
+        <br>
+        <div class="wrap">
+            <div class="floatleft" id = "picture">Picture</div>
+            
+            <div class="floatright" id = "about">About<div id = "textAbout"></div></div>
+            
+            <button id ="but1" type = "button">Dislike</button><button id = "but2" type = "button">?</button> <button id = "but3" type = "button">Like</button>
+            <div style="clear: both;"></div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="purchaseHistoryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+              <div class="modal-body">
+                  <div id="history"></div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align:left">#</th>
+            <th style="text-align:left">Task Description</th>
+            <th style="text-align:left">Points</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="text-align:left">1</td>
+            <td style=" color:green; text-align:left">Active potential matches are pulled from MySQL using AJAX and a PHP API endpoint, and provides unmatched users, and is displayed using the specified page design</td>
+            <td style="text-align:left">40</td>
+        </tr>
+        <tr>
+            <td style="text-align:left">2</td>
+            <td style="color: yellow; text-align:left">The match history is pulled from MySQL using AJAX and a PHP API endpoint, and provides the data for all matches, whether or not there is history, and is displayed using the specified page design</td>
+            <td style="text-align:left">40</td>
+        </tr>
+        <tr>
+            <td style="text-align:left">3</td>
+            <td style="color: green; text-align:left">The information modal is popped up with the "About Me" information for the match</td>
+            <td style="text-align:left">20</td>
+        </tr>
+        <tr>
+            <td style="text-align:left"></td>
+            <td style="text-align:left">TOTAL</td>
+            <td style="text-align:left">100</td>
+        </tr>
+        <tr>
+            <td style="text-align:left"></td>
+            <td style="color:green; text-align:left">This rubric is properly included AND UPDATED (BONUS)</td>
+            <td style="text-align:left">2</td>
+        </tr>
+        <tr>
+            <td style="text-align:left">BD</td>
+            <td style="color: red; text-align:left">A separate report that shows the number of matches by category is available from navigation and shows the correct numbers, and is cleanly formatted</td>
+            <td style="text-align:left">15</td>
+        </tr>
+        <tr>
+            <td style="text-align:left">BD</td>
+            <td style="color: red; text-align:left">After all potential matches have been displayed, the buttons are disabled and a message is displayed; once the message has been closed the user is navigated to the history page</td>
+            <td style="text-align:left">15</td>
+        </tr>
+        <tr>
+            <td style="text-align:left">BD</td>
+            <td style="color: red; text-align:left">The relative time is displayed in the history page instead of actual date and time</td>
+            <td style="text-align:left">10</td>
+        </tr>
+        <tr>
+            <td style="text-align:left">BD</td>
+            <td style="color: red; text-align:left">Users who liked the current user are pulled from MySQL using AJAX and a PHP API endpoint, and are displayed using the specified page design</td>
+            <td style="text-align:left">15</td>
+        </tr>
+    </tbody>
+</table>
+    </body>
+</html>

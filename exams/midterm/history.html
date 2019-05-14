@@ -1,0 +1,208 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+    <title> OtterMart Product Search </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+  <title>The History Page, Cinder</title>
+  <meta name="description" content="cinder">
+
+</head>
+<script>
+    /*global $*/
+    $(document).ready(function(){
+                $.ajax({
+                    type: "GET",
+                    url: "getMatch.php",
+                    dataType: "json",
+                    success: function(data, status) {
+                        data.forEach(function(key) {
+                            var url = key["picture_url"];
+                            $(".tg-0pky2").html(key["username"]);
+                            $(".tg-0pky1").html("<img src = " + url + "/img>");
+                        });
+                    }
+                });
+                $.ajax({
+                    type: "GET",
+                    url: "getMatch.php",
+                    dataType: "json",
+                    success: function(data, status) {
+                        data.forEach(function(key) {
+                            var url = key["picture_url"];
+                            $(".tg-0pky7").html(key["username"]);
+                            $(".tg-0pky6").html("<img src = " + url + "/img>");
+                        });
+                    }
+                });
+                $.ajax({
+                    type: "GET",
+                    url: "getMatch.php",
+                    dataType: "json",
+                    success: function(data, status) {
+                        data.forEach(function(key) {
+                            var url = key["picture_url"];
+                            $(".tg-0pky12").html(key["username"]);
+                            $(".tg-0pky11").html("<img src = " + url + "/img>");
+                        });
+                    }
+                });
+                
+                $("#bu3").on('click', function(){
+                    $('#purchaseHistoryModal').modal("show");
+                    $.ajax({
+                        type: "GET",
+                        url: "getModal.php",
+                        dataType: "json",
+                        data: {
+                            "username" : $(".tg-0pky12").html(),
+                        },
+                        success: function(data, status) {
+                            if (data.length != 0) { // Checks if the API returned a non-empty list
+                                $("#history").html(""); //clears content
+                                data.forEach(function(key) {
+                                    $("#history").append("About: " + key["username"]);
+                                    $("#history").append("<br>" + key["about_me"]);
+                                });
+                            }
+                        }
+                    });
+                }); //historyLink
+                $("#bu1").on('click', function(){
+                    $('#purchaseHistoryModal').modal("show");
+                    $.ajax({
+                        type: "GET",
+                        url: "getModal.php",
+                        dataType: "json",
+                        data: {
+                            "username" : $(".tg-0pky2").html(),
+                        },
+                        success: function(data, status) {
+                            if (data.length != 0) { // Checks if the API returned a non-empty list
+                                $("#history").html(""); //clears content
+                                data.forEach(function(key) {
+                                    $("#history").append("About: " + key["username"]);
+                                    $("#history").append("<br>" + key["about_me"]);
+                                });
+                            }
+                        }
+                    });
+                }); //historyLink
+                $("#bu2").on('click', function(){
+                    $('#purchaseHistoryModal').modal("show");
+                    $.ajax({
+                        type: "GET",
+                        url: "getModal.php",
+                        dataType: "json",
+                        data: {
+                            "username" : $(".tg-0pky7").html(),
+                        },
+                        success: function(data, status) {
+                            if (data.length != 0) { // Checks if the API returned a non-empty list
+                                $("#history").html(""); //clears content
+                                data.forEach(function(key) {
+                                    $("#history").append("About: " + key["username"]);
+                                    $("#history").append("<br>" + key["about_me"]);
+                                });
+                            }
+                        }
+                    });
+                }); //historyLink
+                
+                
+    });
+</script>
+<body>
+    <a href="index.html" class="button" id = "back"><h3>Back To Match</h3></a>
+<style type="text/css">
+    .tg {
+        border-collapse: collapse;
+        border-spacing: 0;
+        height:100%;
+        width:100%;
+    }
+
+    .tg td {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        padding: 10px 5px;
+        border-style: solid;
+        border-width: 1px;
+        overflow: hidden;
+        word-break: normal;
+        border-color: black;
+    }
+
+    .tg th {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        padding: 10px 5px;
+        border-style: solid;
+        border-width: 1px;
+        overflow: hidden;
+        word-break: normal;
+        border-color: black;
+    }
+
+    .tg .tg-0pky {
+        border-color: inherit;
+        text-align: left;
+        vertical-align: top
+    }
+</style>
+<table class="tg">
+    <tr>
+        <th class="tg-0pky">Picture</th>
+        <th class="tg-0pky">Username</th>
+        <th class="tg-0pky">Status</th>
+        <th class="tg-0pky">When</th>
+        <th class="tg-0pky">Details</th>
+    </tr>
+    <tr>
+        <td class="tg-0pky1"></td>
+        <td class="tg-0pky2"></td>
+        <td class="tg-0pky3"></td>
+        <td class="tg-0pky4"></td>
+        <td class="tg-0pky5"><button type = "button" id = "bu1">Details</button></td>
+    </tr>
+    <tr>
+        <td class="tg-0pky6"></td>
+        <td class="tg-0pky7"></td>
+        <td class="tg-0pky8"></td>
+        <td class="tg-0pky9"></td>
+        <td class="tg-0pky0"><button type = "button" id = "bu2">Details</button></td>
+    </tr>
+    <tr>
+        <td class="tg-0pky11"></td>
+        <td class="tg-0pky12"></td>
+        <td class="tg-0pky13"></td>
+        <td class="tg-0pky14"></td>
+        <td class="tg-0pky15"><button type = "button" id = "bu3">Details</button></td>
+    </tr>
+</table>
+<!-- Modal -->
+        <div class="modal fade" id="purchaseHistoryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+              <div class="modal-body">
+                  <div id="history"></div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+</body>
+</html>

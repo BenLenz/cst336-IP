@@ -1,0 +1,272 @@
+[13-May-2019 10:04:54 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 4
+[13-May-2019 10:04:54 UTC] PHP Stack trace:
+[13-May-2019 10:04:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 10:05:08 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 4
+[13-May-2019 10:05:08 UTC] PHP Stack trace:
+[13-May-2019 10:05:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 10:07:11 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 4
+[13-May-2019 10:07:11 UTC] PHP Stack trace:
+[13-May-2019 10:07:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 10:07:17 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 4
+[13-May-2019 10:07:17 UTC] PHP Stack trace:
+[13-May-2019 10:07:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 10:07:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 4
+[13-May-2019 10:07:56 UTC] PHP Stack trace:
+[13-May-2019 10:07:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 10:36:52 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 40
+[13-May-2019 10:36:52 UTC] PHP Stack trace:
+[13-May-2019 10:36:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 10:37:03 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 40
+[13-May-2019 10:37:03 UTC] PHP Stack trace:
+[13-May-2019 10:37:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 18:07:54 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 40
+[13-May-2019 18:07:54 UTC] PHP Stack trace:
+[13-May-2019 18:07:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 18:08:00 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 40
+[13-May-2019 18:08:00 UTC] PHP Stack trace:
+[13-May-2019 18:08:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 18:08:54 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 40
+[13-May-2019 18:08:54 UTC] PHP Stack trace:
+[13-May-2019 18:08:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 18:10:42 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 40
+[13-May-2019 18:10:42 UTC] PHP Stack trace:
+[13-May-2019 18:10:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 18:10:53 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 40
+[13-May-2019 18:10:53 UTC] PHP Stack trace:
+[13-May-2019 18:10:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 18:11:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 40
+[13-May-2019 18:11:27 UTC] PHP Stack trace:
+[13-May-2019 18:11:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 18:25:41 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 40
+[13-May-2019 18:25:41 UTC] PHP Stack trace:
+[13-May-2019 18:25:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 18:26:03 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 40
+[13-May-2019 18:26:03 UTC] PHP Stack trace:
+[13-May-2019 18:26:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 18:26:15 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 40
+[13-May-2019 18:26:15 UTC] PHP Stack trace:
+[13-May-2019 18:26:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 18:29:26 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 40
+[13-May-2019 18:29:26 UTC] PHP Stack trace:
+[13-May-2019 18:29:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 18:41:49 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 40
+[13-May-2019 18:41:49 UTC] PHP Stack trace:
+[13-May-2019 18:41:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 18:42:04 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/exams/final/api/signUp.php on line 40
+[13-May-2019 18:42:04 UTC] PHP Stack trace:
+[13-May-2019 18:42:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[13-May-2019 19:09:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY'' in /home/ubuntu/workspace/exams/final/api/signUp.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/signUp.php(50): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/signUp.php on line 50
+[13-May-2019 19:14:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY'' in /home/ubuntu/workspace/exams/final/api/signUp.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/signUp.php(50): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/signUp.php on line 50
+[13-May-2019 19:16:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9223372036854775807' for key 'PRIMARY'' in /home/ubuntu/workspace/exams/final/api/signUp.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/signUp.php(50): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/signUp.php on line 50
+[13-May-2019 19:21:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '18446744073709551615' for key 'PRIMARY'' in /home/ubuntu/workspace/exams/final/api/signUp.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/signUp.php(50): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/signUp.php on line 50
+[13-May-2019 19:22:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '18446744073709551615' for key 'PRIMARY'' in /home/ubuntu/workspace/exams/final/api/signUp.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/signUp.php(50): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/signUp.php on line 50
+[13-May-2019 19:25:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '18446744073709551615' for key 'PRIMARY'' in /home/ubuntu/workspace/exams/final/api/signUp.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/signUp.php(50): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/signUp.php on line 50
+[13-May-2019 19:34:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY'' in /home/ubuntu/workspace/exams/final/api/signUp.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/signUp.php(50): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/signUp.php on line 50
+[13-May-2019 19:34:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY'' in /home/ubuntu/workspace/exams/final/api/signUp.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/signUp.php(50): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/signUp.php on line 50
+[13-May-2019 19:35:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2147483647' for key 'PRIMARY'' in /home/ubuntu/workspace/exams/final/api/signUp.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/signUp.php(50): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/signUp.php on line 50
+[13-May-2019 19:37:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'' in /home/ubuntu/workspace/exams/final/api/signUp.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/signUp.php(50): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/signUp.php on line 50
+[13-May-2019 19:37:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'' in /home/ubuntu/workspace/exams/final/api/signUp.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/signUp.php(50): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/signUp.php on line 50
+[13-May-2019 19:39:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'' in /home/ubuntu/workspace/exams/final/api/signUp.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/signUp.php(50): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/signUp.php on line 50
+[13-May-2019 19:40:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'' in /home/ubuntu/workspace/exams/final/api/signUp.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/signUp.php(50): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/signUp.php on line 50
+[13-May-2019 19:40:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'' in /home/ubuntu/workspace/exams/final/api/signUp.php:50
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/signUp.php(50): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/signUp.php on line 50
+[13-May-2019 19:59:37 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/exams/final/api/signUp.php on line 44
+[13-May-2019 19:59:37 UTC] PHP Stack trace:
+[13-May-2019 19:59:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/signUp.php:0
+[14-May-2019 01:04:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null' in /home/ubuntu/workspace/exams/final/api/addEvent.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/addEvent.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 11
+[14-May-2019 01:04:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null' in /home/ubuntu/workspace/exams/final/api/addEvent.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/addEvent.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 11
+[14-May-2019 01:05:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null' in /home/ubuntu/workspace/exams/final/api/addEvent.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/addEvent.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 11
+[14-May-2019 01:10:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null' in /home/ubuntu/workspace/exams/final/api/addEvent.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/addEvent.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 11
+[14-May-2019 01:11:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null' in /home/ubuntu/workspace/exams/final/api/addEvent.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/addEvent.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 11
+[14-May-2019 01:12:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null' in /home/ubuntu/workspace/exams/final/api/addEvent.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/addEvent.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 11
+[14-May-2019 01:22:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Starttime' cannot be null' in /home/ubuntu/workspace/exams/final/api/addEvent.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/addEvent.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 11
+[14-May-2019 01:28:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Bookedby' cannot be null' in /home/ubuntu/workspace/exams/final/api/addEvent.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/addEvent.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 11
+[14-May-2019 01:29:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/exams/final/api/addEvent.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/addEvent.php(12): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 12
+[14-May-2019 01:33:50 UTC] PHP Fatal error:  Call to undefined function value() in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 7
+[14-May-2019 01:33:50 UTC] PHP Stack trace:
+[14-May-2019 01:33:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/addEvent.php:0
+[14-May-2019 01:38:31 UTC] PHP Fatal error:  Call to undefined function value() in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 14
+[14-May-2019 01:38:31 UTC] PHP Stack trace:
+[14-May-2019 01:38:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/exams/final/api/addEvent.php:0
+[14-May-2019 01:46:01 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 6
+[14-May-2019 01:46:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null' in /home/ubuntu/workspace/exams/final/api/addEvent.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/addEvent.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 12
+[14-May-2019 01:50:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null' in /home/ubuntu/workspace/exams/final/api/addEvent.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/addEvent.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 12
+[14-May-2019 01:53:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null' in /home/ubuntu/workspace/exams/final/api/addEvent.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/addEvent.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 12
+[14-May-2019 01:55:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null' in /home/ubuntu/workspace/exams/final/api/addEvent.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/addEvent.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 12
+[14-May-2019 01:57:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null' in /home/ubuntu/workspace/exams/final/api/addEvent.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/addEvent.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 12
+[14-May-2019 01:59:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Date' cannot be null' in /home/ubuntu/workspace/exams/final/api/addEvent.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/addEvent.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/addEvent.php on line 12
+[14-May-2019 02:38:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE Date >= 2019/05/14' at line 1' in /home/ubuntu/workspace/exams/final/api/getEvent.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/getEvent.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/getEvent.php on line 7
+[14-May-2019 02:40:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE Date >= 2019/05/14' at line 1' in /home/ubuntu/workspace/exams/final/api/getEvent.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/getEvent.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/getEvent.php on line 7
+[14-May-2019 02:40:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE Date >= 2019/05/14' at line 1' in /home/ubuntu/workspace/exams/final/api/getEvent.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/getEvent.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/getEvent.php on line 7
+[14-May-2019 02:43:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE Date >= 2019/05/14' at line 1' in /home/ubuntu/workspace/exams/final/api/getEvent.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/getEvent.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/getEvent.php on line 7
+[14-May-2019 02:45:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE Date >= 2019-05-14' at line 1' in /home/ubuntu/workspace/exams/final/api/getEvent.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/getEvent.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/getEvent.php on line 8
+[14-May-2019 02:45:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE Date >= 2019-05-14' at line 1' in /home/ubuntu/workspace/exams/final/api/getEvent.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/getEvent.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/getEvent.php on line 9
+[14-May-2019 02:54:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE Date >= 2019-05-14' at line 1' in /home/ubuntu/workspace/exams/final/api/getEvent.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/getEvent.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/getEvent.php on line 9
+[14-May-2019 02:54:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE Date >= 2019-05-14' at line 1' in /home/ubuntu/workspace/exams/final/api/getEvent.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/getEvent.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/getEvent.php on line 9
+[14-May-2019 02:54:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE Date >= 2019-05-14' at line 1' in /home/ubuntu/workspace/exams/final/api/getEvent.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/getEvent.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/getEvent.php on line 9
+[14-May-2019 02:55:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE Date >= 2019-05-14' at line 1' in /home/ubuntu/workspace/exams/final/api/getEvent.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/getEvent.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/getEvent.php on line 9
+[14-May-2019 02:56:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE Date >= 2019-05-14' at line 1' in /home/ubuntu/workspace/exams/final/api/getEvent.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/getEvent.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/getEvent.php on line 9
+[14-May-2019 02:58:02 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE Date >= 2019-05-14' at line 1' in /home/ubuntu/workspace/exams/final/api/getEvent.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/exams/final/api/getEvent.php(9): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/exams/final/api/getEvent.php on line 9

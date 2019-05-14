@@ -24,18 +24,6 @@
                 });
                  $.ajax({
                     type: "GET",
-                    url: "getPromoCode.php",
-                    dataType: "json",
-                    success: function(data, status) {
-                        data.forEach(function(key) {
-                            $("#tg-23").html(key["discount"]+"%");
-                            $("#tg-24").html((key["discount"]/100)*$("#tg-04").val());
-                            $("#promos").html(key["promoCode"]);
-                        });
-                    }
-                });
-                 $.ajax({
-                    type: "GET",
                     url: "getProduct.php",
                     dataType: "json",
                     success: function(data, status) {
@@ -46,6 +34,41 @@
                             $("#tg-04").html("$"+key["productPrice"])
                            $("#product").html(key["productName"]); 
                            $("#price").html(key["productPrice"]);
+                           $("#tg-54").html($("#tg-04").html());
+                        });
+                    }
+                });
+                $("#categories").on("change",function(){
+                    $.ajax({
+                        type: "GET",
+                        url: "getPrice.php",
+                        dataType: "json",
+                        data: {
+                            "product" : $("#categories option:selected").html(),
+                        },
+                        success: function(data, status) {
+                            data.forEach(function(key) {
+                               $("#quantity").val(1)
+                               $("#tg-12").html(key["productPrice"])
+                               $("#tg-14").html("$"+key["productPrice"]);
+                            });
+                        }
+                    });
+                }); //searchForm
+                 $.ajax({
+                    type: "GET",
+                    url: "getPromoCode.php",
+                    dataType: "json",
+                    success: function(data, status) {
+                        data.forEach(function(key) {
+                            var disc = key["discount"]/100;
+                            console.log(disc);
+                            var total = parseFloat($("#tg-02").html());
+                            console.log(total);
+                            $("#tg-23").html(key["discount"]+"%");
+                            $("#tg-24").html(disc*total);
+                            $("#promos").val(key["promoCode"]);
+                            $("#promo").html("This promo code expires on: " + key["expirationDate"]);
                         });
                     }
                 });
@@ -59,6 +82,10 @@
                 text-align: left;
                 padding-left: 20px;
             }
+            #promo{
+                color:red;
+            }
+
         </style>
     </head>
     <body>
@@ -68,8 +95,8 @@
             .tg  {border-collapse:collapse;border-spacing:0;}
             .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
             .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
-            .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-            .tg .tg-0lax{text-align:left;vertical-align:top}
+            .tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:top}
+            .tg .tg-0lax{text-align:center;vertical-align:top}
             </style>
             <table class="tg">
               <tr>
@@ -119,11 +146,12 @@
               </tr>
             </table>
             <br>
-           Promo Code:<div id = "promos"></div>
+           Promo Code:<input type = "text" id = "promos"/>
         </div>
         <br>
         <hr>
         <div id="results"></div>
+        <div id="promo"></div>
 
         <!-- Modal -->
         <div class="modal fade" id="purchaseHistoryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
